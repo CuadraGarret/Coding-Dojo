@@ -1,0 +1,56 @@
+.container {
+    width:900px;
+    background-color: silver;
+    margin: 0px auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: grey;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+.container img {
+height: 180px;
+width: 180px;
+padding: 10px;
+padding-left: 55px;
+padding-right: 55px;
+
+}
+
+.box1 {
+    width: 900px;
+    height: 200px;
+    background-color: deepskyblue;
+}
+
+.box2 {
+    width: 900px;
+    height: 200px;
+    background-color: plum;
+}
+
+.box3 {
+    width: 900px;
+    height: 200px;
+    background-color: white;
+}
+
+.box1, .box2, .box3 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+p, a {
+    text-align: center;
+    display: inline;
+    font-size: large;
+}
