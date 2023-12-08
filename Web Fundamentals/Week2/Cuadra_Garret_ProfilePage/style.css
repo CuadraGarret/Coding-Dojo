@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding: 10px 0px;
+}
+
+ul {
+    list-style-type: none;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+a {
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'Roboto';
+    background-color: #17a2b8;
+    color: white;
+    border: 3px solid black;
+    padding: 5px 10px;
+    font-size: large;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.d-flex1 {
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+}
+
+main {
+    flex: 2;
+    align-self: flex-start;
+}
+
+secondary {
+    flex: 1;
+}
+
+.user-card {
+    border: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+.user-header {
+    background-color: #17a2b8;
+    height: 100px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.user-body {
+    padding: 20px;
+}
+
+.profpic {
+    width: 80px;
+    top: 50px;
+    left: 40px;
+    border: 3px solid white;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.logo {
+    width: 15px;
+}
+
+.ed-card {
+    border: 2px solid grey;
+}
+
+.con-head {
+    background-color: #333333;
+    font-family: 'Roboto';
+
+}
+
+.number {
+    color: black;
+    background-color: #cccccc;
+    padding: 5px 10px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+
+.con-body {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Roboto';
+}
+
+h2 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: white;
+    font-size: larger;
+    padding: 15px 0px;
+}
+
+p {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.view{
+    border-top: 2px solid grey;
+    text-decoration: underline;
+}
+.date{
+    color: grey;
+    font-size: larger;
+}
+
+.close {
+    padding-left: 20px;
+}
+
+.close1 {
+    padding-right: 60px;
+}
+
+.close2 {
+    padding-right: 70px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.map {
+    margin-bottom: 10px;
+}
+
+.aboutme {
+    margin-bottom: 10px;
+}
+
+.bubble {
+    width: 35px;
+}
+
+small {
+    font-family: "Roboto";
+    font-size: x-large;
+}
+
+.d-flex start {
+    justify-content: flex-start;
+}
+
+.d-flex end {
+    justify-content: flex-end;
+}
+
+.margin  {
+    margin-bottom: 10px;
+}
