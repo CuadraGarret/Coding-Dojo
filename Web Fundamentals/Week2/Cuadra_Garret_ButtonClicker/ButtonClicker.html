@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <header>
+        <div class="dojo container d-flex">
+            <h1>Dojonary</h1>
+            <input type="text" name="search" placeholder="Search">
+            <button class="btn" onclick='logout(this)'>Login</button>
+        </div>
+    </header>
+    <div class="container d-flex">
+        <main>
+            <div class="define d-flex">
+                <div class="col">
+                    <h1>ninja</h1>
+                    <h2 class="italics">noun</h2>
+                    <h3>Plural: ninjas</h3>
+                    <button class="likes" onclick="box(this)">13 likes</button>
+                </div>
+                <div>
+                    A practitioner skilled in the
+                    <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                </div>
+            </div>
+            <div class="define d-flex">
+                <div class="col">
+                    <h1>ninja</h1>
+                    <h2 class="italics">noun</h2>
+                    <h3>Plural: ninjas</h3>
+                    <button class="likes" onclick="box(this)">37 likes</button>
+                </div>
+                <div>
+                    A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div class="you col">
+                <h2>Dojonary is defined by <a>YOU</a>
+                    <h2>
+                        <button class="add" onclick="removeFromDOM(this)">Add Definition</button>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

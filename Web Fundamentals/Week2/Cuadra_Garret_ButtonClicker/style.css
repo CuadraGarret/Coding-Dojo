@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 2;
+    align-self: flex-start;
+}
+/* utilities start */
+
+.container {
+width: 1024px;
+margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.col  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.italics  {
+    font-style: italic;
+}
+
+/* utilities end */
+
+/* header start */
+
+.dojo {
+    background-color: #cccccc;
+    padding: 10px 20px;
+    border: 3px solid grey;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+}
+
+.btn {
+    padding: 5px 20px;
+    color: white;
+    background-color: #2b78e4;
+    border: 1px solid black;
+    box-shadow: 3px 4px black;
+}
+
+/* header end */
+
+/* main start */
+
+.define {
+    padding: 20px;
+    border: 3px solid grey;
+    margin-bottom: 20px;
+}
+
+div .define {
+    justify-content: flex-start;
+}
+
+.likes  {
+    background-color: #ffd966;
+    padding: 5px 15px;
+    font-size: large;
+    box-shadow: 3px 4px black;
+}
+
+
+/* main end */
+
+/* aside start */
+
+.you    {
+    border: 3px solid grey;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+id  {
+    font-weight: bolder;
+}
+
+.add    {
+    background-color: #93c47d;
+    padding: 10px 80px;
+    font-size: x-large;
+    box-shadow: 5px 5px black;
+
+}
+/* aside end */
