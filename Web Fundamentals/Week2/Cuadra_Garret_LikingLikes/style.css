@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1024px;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    gap: 20px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+
+header2 {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+profile {
+    flex: 1;
+    border: 2px solid black;
+    align-self: flex-start;
+}
+
+feed {
+    flex: 4;
+    align-self: flex-start;
+}
+
+/* Utilities */
+
+.container {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 1024px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.col {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Utilities */
+
+/* Your Feed */
+
+.yourFeed {
+    margin-bottom: 20px;
+}
+
+/* Your Feed */
+
+/* Profile */
+
+.profile {
+    margin-bottom: 20px;
+    padding: 20px 0px;
+}
+
+.user {
+    height: 100px;
+}
+
+.avatar {
+    font-size: larger;
+}
+
+/* Profile */
+
+/* Feed */
+
+.friend {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#btn {
+    background-color: #ffd966;
+    font-size: larger;
+    padding: 5px 15px;
+    box-shadow: 3px 4px black;
+}
+
+/* Feed */

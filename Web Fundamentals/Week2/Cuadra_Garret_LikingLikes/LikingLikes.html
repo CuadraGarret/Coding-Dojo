@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Network</h1>
+    </header>
+
+    <h1 class="yourFeed d-flex center">Your Feed</h1>
+
+    <!-- Main Container -->
+    <div class="container d-flex">
+        <!-- Profile -->
+        <profile>
+            <div class="profile d-flex col">
+                <img src="user.png" alt="profile photo" class="user">
+                <a href="#" class="avatar">Add an avatar</a>
+                <h1>James Doe</h1>
+            </div>
+        </profile>
+        <!-- Feed -->
+        <feed>
+            <div class="friend">
+                <div class="d-flex">
+                    <h1>Neil M</h1>
+                    <div class="d-flex end">
+                        <h2><span id="count">9</span> like(s)</h2>
+                        <button id="btn" onclick="increaseLikes('#count')">Like</button>
+                    </div>
+                </div>
+                <h3>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></h3>
+            </div>
+            <div class="friend">
+                <div class="d-flex">
+                    <h1>Nichole K</h1>
+                    <div class="d-flex end">
+                        <h2><span id="count1">12</span> like(s)</h2>
+                        <button id="btn" onclick="increaseLikes('#count1')">Like</button>
+                    </div>
+                </div>
+                <h3>Just finished my <a href="#">next comic</a>, check it out.</h3>
+            </div>
+            <div class="friend">
+                <div class="d-flex">
+                    <h1>Jim R</h1>
+                    <div class="d-flex end">
+                        <h2><span id="count2">9</span> like(s)</h2>
+                        <button id="btn" onclick="increaseLikes('#count2')">Like</button>
+                    </div>
+                </div>
+                <h3>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</h3>
+            </div>
+        </feed>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
