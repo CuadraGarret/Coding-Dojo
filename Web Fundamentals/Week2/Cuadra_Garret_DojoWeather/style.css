@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+header {
+    background-color: #9fc5f8;
+    color: white;
+}
+
+
+
+/* Utilities */
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    padding: 20px 0px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.col {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.around {
+    width: 100%;
+    justify-content: space-around;
+}
+/* Utilities End */
+
+/* Main Header */
+.city .flex {
+    justify-content: flex-end;
+    flex: 3;
+}
+/* Main Header End */
+
+/* City Header */
+.sanjose {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.temp {
+    padding: 3px 4px;
+    font-size: large;
+}
+/* City Header End */
+
+/* Weather */
+img {
+    width: 140px;
+    border-radius: 100%;
+}
+.high {
+    color: red;
+}
+.low {
+    color: blue;
+}
+
+.day {
+    margin-bottom: 10px
+}
+/* Weather End */
+
+/* Jar Container */
+.jar {
+    background-color: #eeeeee;
+    border: 2px solid black;
+    padding: 0px 20px;
+}
+
+.cookie {
+    width: 60px;
+}
+
+button {
+    background-color: #9fc5f8;
+    padding: 5px 10px;
+    font-size: larger;
+    box-shadow: 3px 5px black;
+}
+
+.stop {
+    width: 780px;
+}
+/* Jar Container End */

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <div class="gap"></div>
+    <header>
+        <div class="container">
+            <div class="flex">
+                <h1>Gaming<span>Dojo</span></h1>
+                <div class="flex">
+                    <select name="currency">
+                        <option value="Euro">Euro €</option>
+                    </select>
+                    <img src="assets/cart-light.png" alt="cart png" class="mirror">
+                    <h2 id="cart">0</h2>
+                    <img src="assets/search-light.png" alt="search png" class="search">
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside>
+        <!-- Main Body -->
+        <div class="container">
+            <h3>Highlights</h3>
+            <div class="highlights flex">
+                <!-- Body Slideshow -->
+                <a class="arrow" onclick="plusSlides(-1)">&#8249;</a>
+                <div class="slideshow container">
+                    <div class="slide">
+                        <img src="assets/stonepunk.png" alt="stonepunk png" class="main">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/pixel-ninjas-2.png" alt="pixel ninjas png" class="main">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/cafe-neko.png" alt="cafe neko png" class="main">
+                    </div>
+                </div>
+                <a class="arrow" onclick="plusSlides(1)">&#8250;</a>
+            </div>
+            <div class=" middle flex center">
+                <div class="box"></div>
+                <div class="box1"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <!-- Game Display -->
+            <div class="flex">
+                <div class="col">
+                    <img src="assets/cafe-neko.png" alt="cafe neko png" class="sub">
+                    <div class="info">
+                        <h3>Cafe Neko: Gold Edition</h3>
+                        <div class="flex start">
+                            <img src="assets/windows.png" alt="windows png" class="icon">
+                            <img src="assets/apple.png" alt="apple png" class="icon">
+                        </div>
+                        <div class="flex">
+                            <a class="discount">-20%</a>
+                            <div>
+                                <p class="price">€14.98</p>
+                                <p>€10.49</p>
+                            </div>
+                            <button class="btn" onclick="add('#cart')">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/pixel-ninjas-2.png" alt="pixel ninjas png" class="sub">
+                    <div class="info">
+                        <h3>Pixel Ninjas 2</h3>
+                        <div class="flex start">
+                            <img src="assets/windows.png" alt="windows png" class="icon">
+                            <img src="assets/apple.png" alt="apple png" class="icon">
+                        </div>
+                        <div class="flex">
+                            <a class="discount">-10%</a>
+                            <div>
+                                <p class="price">€8.19</p>
+                                <p>€7.39</p>
+                            </div>
+                            <button class="btn" onclick="add('#cart')">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/stonepunk.png" alt="stonepunk png" class="sub">
+                    <div class="info">
+                        <h3>Stonepunk 10000 BCE</h3>
+                        <div class="flex start">
+                            <img src="assets/windows.png" alt="windows png" class="icon">
+                            <img src="assets/apple.png" alt="apple png" class="icon">
+                            <img src="assets/linux.png" alt="linux png" class="icon" id="linux"
+                                onclick="alert('This game is supported on Linux')">
+                        </div>
+                        <div class="flex">
+                            <a class="discount">NEW</a>
+                            <a>€19.99</a>
+                            <button class="btn" onclick="add('#cart')">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+
+</html>

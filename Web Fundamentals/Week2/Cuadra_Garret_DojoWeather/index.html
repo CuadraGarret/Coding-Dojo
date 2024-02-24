@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Header -->
+    <header>
+        <div class="container flex">
+            <div class="weather flex">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="end flex">
+                <h2 onclick="report()">Burbank</h2>
+                <h2 onclick="report()">Chicago</h2>
+                <h2 onclick="report()">Dallas</h2>
+            </div>
+        </div>
+    </header>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- City Header Container -->
+        <div class="sanjose flex">
+            <h2>San Jose</h2>
+            <div class="flex">
+                <div class="end flex">
+                    <h3>show temperature in</h3>
+                    <select name="temp" class="temp">
+                        <option value="celsius">°C</option>
+                        <option value="fahrenheit" onchange="changeTemp()">°F</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!-- Weather -->
+        <div class="day flex">
+            <div class="col flex">
+                <h2>Today</h2>
+                <img src="icons/some_rain.png" alt="some rain png">
+                <h3>some rain</h3>
+                <div class="around flex">
+                    <h2 class="high degree">24°</h2>
+                    <h2 class="low degree">18°</h2>
+                </div>
+            </div>
+            <div class="col flex">
+                <h2>Tomorrow</h2>
+                <img src="icons/some_rain.png" alt="some sun png">
+                <h3>some sun</h3>
+                <div class="around flex">
+                    <h2 class="high degree">27°</h2>
+                    <h2 class="low degree">19°</h2>
+                </div>
+            </div>
+            <div class="col flex">
+                <h2>Friday</h2>
+                <img src="icons/some_clouds.png" alt="some clouds png">
+                <h3>some clouds</h3>
+                <div class="around flex">
+                    <h2 class="high degree">21°</h2>
+                    <h2 class="low degree">16°</h2>
+                </div>
+            </div>
+            <div class="col flex">
+                <h2>Saturday</h2>
+                <img src="icons/some_sun.png" alt="some sun png">
+                <h3>some sun</h3>
+                <div class="around flex">
+                    <h2 class="high degree">26°</h2>
+                    <h2 class="low degree">21°</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Cookies Container -->
+        <div class="jar container" id="cookies">
+            <div class="flex">
+                <img src="icons/cookie.png" alt="cookie png" class="cookie">
+                <div class="stop col">
+                    <h2>Stop! Cookie time</h2>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button id="btn" onclick="remove('#cookies')">I Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
