@@ -21,5 +21,5 @@ def repeat(num, name):
     print(name)
     return num * f'{name}'
 
-if __name__=="__main__":   # Ensure this file is being run directly and not from a different module    
-    app.run(debug=True)    # Run the app in debug mode.
+if __name__=="__main__":
+    app.run(debug=True)
